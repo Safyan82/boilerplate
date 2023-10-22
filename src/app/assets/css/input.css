@@ -1,0 +1,29 @@
+
+.generic-input-control{
+    padding: 9px 10px;
+    border-radius: 3px;
+    border: 1px solid #cbd6e2;
+    font-size: 16px;
+    transition: all .15s ease-out;
+    background-color: #f5f8fa;
+    color: #33475b;
+    /* display: block; */
+    height: 40px;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.generic-input-control:focus{
+    border-color: rgba(0,208,228,.5);
+    box-shadow: 0 0 4px 1px rgba(0,208,228,.3), 0 0 0 1px #00d0e4;
+    outline: 0;
+}
+
+
+.generic-input-control:hover{
+    outline: 0 !important;
+    border-color: #cbd6e2 !important;
+}
