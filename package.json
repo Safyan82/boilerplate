@@ -10,14 +10,19 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/utilities": "^3.2.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "antd": "^5.10.2",
+    "dayjs": "^1.11.10",
     "mongoose": "^7.6.3",
     "next": "13.5.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-resizable": "^3.0.5"
   },
   "devDependencies": {
     "eslint": "^8",

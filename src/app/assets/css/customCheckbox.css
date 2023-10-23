@@ -1,0 +1,29 @@
+.ant-checkbox .ant-checkbox-inner{
+    border: 2px solid rgb(203, 214, 226) !important;
+    border-color: rgb(203, 214, 226) !important;
+    background-color: rgb(203, 214, 226, 0.3) !important;
+    height: 23px !important;
+    width: 23px !important;
+  }
+  
+  
+  
+   .ant-checkbox-checked .ant-checkbox-inner{
+    border: 2px solid !important;
+    border-color: #00a4bd !important;
+    background-color: transparent !important;
+    height: 23px !important;
+    width: 23px !important;
+  }
+  
+  
+   .ant-checkbox-checked:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+    background-color: transparent !important;
+  
+  }
+  
+   .ant-checkbox-inner::after {
+    border-color: #0091ae !important; /* Set the desired tick color */
+    height: 12px !important;
+    border-width: 3px;
+  }
